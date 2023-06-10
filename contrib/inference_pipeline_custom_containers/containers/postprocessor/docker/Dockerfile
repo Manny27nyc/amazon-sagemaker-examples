@@ -1,7 +1,7 @@
 # Part of the implementation of this container is based on the Amazon SageMaker Apache MXNet container.
 # https://github.com/aws/sagemaker-mxnet-container
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 LABEL maintainer="Amazon AI"
 
