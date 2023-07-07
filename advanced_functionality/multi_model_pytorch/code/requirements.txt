@@ -2,3 +2,4 @@
 # described in train.py's enable_torchserve_multi_model():
 sagemaker-pytorch-inference>=2,<3
 torch-model-archiver
+scipy>=1.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
