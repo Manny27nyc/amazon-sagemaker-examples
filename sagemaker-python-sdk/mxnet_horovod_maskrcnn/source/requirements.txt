@@ -3,3 +3,6 @@ pybind11==2.4.3
 Cython==0.29.6
 mpi4py==3.0.3
 pycocotools
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
